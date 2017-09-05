@@ -1,0 +1,19 @@
+====== PagelistNG Plugin for DokuWiki ======
+
+The PagelistNG plugin is the successor of the pagelist plugin.
+
+All documentation of the legacy Pagelist Plugin is available online at:
+
+  * http://dokuwiki.org/plugin:pagelist
+
+No documentation is yet available for this plugin.
+
+This is work in progress and the plugin should not be used except for testing or playing around.
+The code is shared online for documentation of the progress, review and of
+course for giving comments and sharing ideas.
+
+Do not use this in a productive environment.
+The code and the API of the plugin is undergoing changes.
+
+(c) 2017 by LarsDW223 (freaks@dokuwiki.org)
+See COPYING for license info.

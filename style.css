@@ -1,0 +1,116 @@
+div.dokuwiki table.pagelistng,
+div.dokuwiki table.ul {
+  border: 0;
+  padding: 0;
+  border-spacing: 0;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+}
+
+div.dokuwiki table.pagelistng tr {
+  border-top: 1px solid __border__;
+  border-bottom: 1px solid __border__;
+}
+
+div.dokuwiki table.pagelistng th,
+div.dokuwiki table.pagelistng td {
+  padding: 1px 1em 1px 0;
+  border: 0;
+}
+
+div.dokuwiki table.ul th,
+div.dokuwiki table.ul td {
+  padding: 0 1em 0 0;
+  border: 0;
+}
+
+div.dokuwiki table.ul ul {
+  margin: 0 0 0 1.5em;
+}
+
+div.dokuwiki table.pagelistng th,
+div.dokuwiki table.ul th {
+  background-color: __background_alt__;
+}
+
+div.dokuwiki table.pagelist th,
+div.dokuwiki table.pagelist td {
+  color: __text_neu__;
+  font-size: 80%;
+}
+
+div.dokuwiki table.pagelist td.date {
+  text-align: left;
+}
+
+div.dokuwiki div.pagelist.uboard {
+    background-color:__background_alt__;
+    background-image: 
+        radial-gradient(circle at 100% 150%, __background_alt__ 24%, __background__ 25%, __background__ 28%, __background_alt__ 29%, __background_alt__ 36%, __background__ 36%, __background__ 40%, transparent 40%, transparent),
+        radial-gradient(circle at 0    150%, __background_alt__ 24%, __background__ 25%, __background__ 28%, __background_alt__ 29%, __background_alt__ 36%, __background__ 36%, __background__ 40%, transparent 40%, transparent),
+        radial-gradient(circle at 50%  100%, __background__ 10%, __background_alt__ 11%, __background_alt__ 23%, __background__ 24%, __background__ 30%, __background_alt__ 31%, __background_alt__ 43%, __background__ 44%, __background__ 50%, __background_alt__ 51%, __background_alt__ 63%, __background__ 64%, __background__ 71%, transparent 71%, transparent),
+        radial-gradient(circle at 100% 50%, __background__ 5%, __background_alt__ 6%, __background_alt__ 15%, __background__ 16%, __background__ 20%, __background_alt__ 21%, __background_alt__ 30%, __background__ 31%, __background__ 35%, __background_alt__ 36%, __background_alt__ 45%, __background__ 46%, __background__ 49%, transparent 50%, transparent),
+        radial-gradient(circle at 0    50%, __background__ 5%, __background_alt__ 6%, __background_alt__ 15%, __background__ 16%, __background__ 20%, __background_alt__ 21%, __background_alt__ 30%, __background__ 31%, __background__ 35%, __background_alt__ 36%, __background_alt__ 45%, __background__ 46%, __background__ 49%, transparent 50%, transparent);
+    background-size:100px 50px;
+    min-height: 10vh;
+}
+
+div.dokuwiki div.pagelist.uboard p {
+    background: __background_alt__;
+    font-size: 2em;
+    font-weight: bold;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+div.dokuwiki div.pagelist.uboard div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.dokuwiki div.pagelist.uboard div.card {
+    background-color: __background__;
+    border: 2px solid gray;
+    margin: 5px;
+    border-radius: 1em;
+    overflow:hidden;
+    width: 30%;
+    height: 25vh;
+}
+
+div.dokuwiki div.pagelist.uboard div.card div {
+    padding: 2px;
+    min-height: 1em;
+    overflow:hidden;
+}
+
+div.dokuwiki div.pagelist.uboard div.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+div.dokuwiki div.pagelist.uboard div.card div.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    height: 85%;
+}
+
+div.dokuwiki div.pagelist.uboard div.card div.content div {
+    flex: 0 0 content;
+    border-top: 1px solid __background_alt__;
+}
+
+div.dokuwiki div.pagelist.uboard div.card div.content div:nth-child(1) {
+    border: none;
+}
+
+div.dokuwiki div.pagelist.uboard div.card div.content div.desc {
+    flex: 5 5 20%;
+    overflow: hidden;
+}

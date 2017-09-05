@@ -1,0 +1,8 @@
+# General Plugin Info do not edit
+base   pagelistng
+author LarsDW223
+email  freaks@dokuwiki.org
+date   2017-09-05
+name   PagelistNG Plugin
+desc   Lists pages in a nice formatted way, choose from different views.
+url    http://www.dokuwiki.org/plugin:pagelistng
